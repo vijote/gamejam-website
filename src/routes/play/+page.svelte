@@ -106,6 +106,10 @@
     })
 </script>
 
+<svelte:head>
+    <title>Jugar | El ascenso del Depredador</title>
+</svelte:head>
+
 <div id="unity-container" class="unity-desktop">
     <canvas id="unity-canvas" width="960" height="600" tabindex="-1" />
     <div id="unity-loading-bar">
