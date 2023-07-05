@@ -1,4 +1,4 @@
-[headers]
-  for = "/*"
-  [headers.values]
-    Content-Encoding: gzip
+[[headers]]
+  for = "/*.gz"
+    [headers.values]
+    Content-Encoding = "gzip"
