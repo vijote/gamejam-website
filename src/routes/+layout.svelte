@@ -1,11 +1,4 @@
-<script>
-    import backgroundImage from "$lib/assets/background.jpg";
-</script>
-<section class="background" style="background-image: linear-gradient(
-    to bottom, 
-    rgba(0, 0, 0, 0), 
-    rgba(119, 16, 0, 0.8)), 
-    url('{backgroundImage}');">
+<section class="background">
     <nav class="navbar">
         <a class="link name" href="/">El ascenso del depredador</a>
         <a class="link ml-auto" href="/about">Sobre nosotros</a>
@@ -46,22 +39,24 @@
     .navbar {
         display: flex;
         column-gap: 1rem;
+        row-gap: 1rem;
         padding: 1rem 1.5rem;
         align-items: center;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 255, 0, 0));
         position: sticky;
+        flex-wrap: wrap;
     }
 
     .link {
         text-decoration: none;
         color: antiquewhite;
-        font-weight: bold;
-        font-size: 1.25rem;
+        font-size: 1rem;
         width: fit-content;
     }
 
-    .name {
+    .link.name {
         font-size: 1.5rem;
+        font-weight: bold;
     }
 
     .download-button {
@@ -70,7 +65,7 @@
         background-color: rgb(154, 31, 0);
         padding: 0.35rem 1rem;
         font-weight: bold;
-        font-size: 1.25rem;
+        font-size: 1rem;
         border-radius: 0.25rem;
         color: white;
     }
@@ -80,12 +75,26 @@
     }
 
     .background {
-        /* background-image: linear-gradient(
+        background-image: linear-gradient(
             to bottom, 
             rgba(0, 0, 0, 0), 
             rgba(119, 16, 0, 0.8)), 
-            url('../lib/assets/background.jpg'); */
+            url('../lib/assets/background.webp');
         background-size: cover;
         min-height: 100svh;
+    }
+
+    @media screen and (min-width: 768px) {
+        .link {
+            font-size: 1rem;
+            font-weight: normal;
+
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+
+        .download-button {
+            font-size: 1.25rem;
+        }
     }
 </style>

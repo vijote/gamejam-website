@@ -1,6 +1,6 @@
 <script>
-    import landing01 from "$lib/assets/landing-01.jpg";
-    import landing02 from "$lib/assets/landing-02.jpg";
+    import landing01 from "$lib/assets/landing-01.webp";
+    import landing02 from "$lib/assets/landing-02.webp";
 </script>
 
 <svelte:head>
@@ -20,13 +20,13 @@
         </section>
 
         <section class="section-01">
-            <img class="landing-01" src={landing01} alt="Game" />
+            <img class="landing-01" src={landing01} width="640" height="400" alt="Game" />
         </section>
     </section>
 
     <section class="section-container">
         <section class="section-01 order-sm-2">
-            <img class="landing-01 glow" src={landing02} alt="Game" />
+            <img class="landing-01 glow" src={landing02} width="640" height="400" alt="Game" />
         </section>
         <section class="section-01 order-sm-1">
             <h2 class="game-title">Un desarrollo local</h2>
