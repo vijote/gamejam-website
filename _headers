@@ -1,5 +1,5 @@
-/Build/*.gz
+*.gz
   Content-Encoding: gzip
 
-Build/jadev-jam-web.wasm.gz
+jadev-jam-web.wasm.gz
   Content-Type: application/wasm
