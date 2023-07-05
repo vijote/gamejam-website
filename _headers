@@ -1,5 +1,2 @@
-jadev-jam-web.framework.js.gz
+/build/*.gz
   Content-Encoding: gzip
-
-jadev-jam-web.wasm.gz
-  Content-Type: application/wasm
