@@ -2,3 +2,7 @@
   for = "/*.gz"
     [headers.values]
     Content-Encoding = "gzip"
+
+  for = "/jadev-jam-web.wasm.gz"
+    [headers.values]
+    Content-Type = "application/wasm"
