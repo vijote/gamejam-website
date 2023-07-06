@@ -103,6 +103,7 @@
 
     onDestroy(() => {
         unityInstanceRef.Quit();
+        unityInstanceRef = null;
     })
 </script>
 
