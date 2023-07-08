@@ -14,9 +14,9 @@
             <p class="game-description">
                 Tenés lo necesario para superar a tus depredadores y volverte el mas apto para evolucionar?
             </p>
-            <button class="download-button">
+            <a class="download-button" href="https://github.com/vijote/eadd-build/archive/refs/heads/main.zip">
                 Descargar
-            </button>
+            </a>
         </section>
 
         <section class="section-01">

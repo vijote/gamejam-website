@@ -3,7 +3,7 @@
         <a class="link name" href="/">El ascenso del depredador</a>
         <a class="link ml-auto" href="/about">Sobre nosotros</a>
         <a class="link" href="/play">Jugar</a>
-        <button class="download-button">Descargar</button>
+        <a class="download-button" href="https://github.com/vijote/eadd-build/archive/refs/heads/main.zip">Descargar</a>
     </nav>
     
     <slot/>
